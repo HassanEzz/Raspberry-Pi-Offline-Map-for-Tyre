@@ -22,13 +22,14 @@ library like MySQLdb and Tkinter:
 
 in this project we have two python files and a sql file:
 
- "map.py": this will create a GUI that contains several buttons; every one open a map by clicking on it. this GUI is connected
-            database "map" that has a table named "tyr" every record has two feilds 'name' and 'image'.
+	 "map.py": this will create a GUI that contains several buttons; every one open a map by clicking on it. this GUI is connected
+             database "map" that has a table named "tyr" every record has two feilds 'name' and 'image'.
             
- "entry.py": this will create a GUI that contains two entry and a button; this let us enter a new record to the database "map"
-               in the table "tyr" the name of the map and an image of it.
+	 "entry.py": this will create a GUI that contains two entry and a button; this let us enter a new record to the database "map"
+              in the table "tyr" the name of the map and an image of it.
                
- "map.sql": this file is the database "map" of the project; 
+	 "map.sql": this file is the database "map" of the project; 
             for importing this database you use this instruction in the terminal:
-     (mysqldump -u root -p map < map.sql) where root is your mysql username and map the name of the database
+            (mysqldump -u root -p map < map.sql) 
+            where root is your mysql username and map the name of the database
 
